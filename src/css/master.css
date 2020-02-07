@@ -1,3 +1,8 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
 .player {
     pointer-events: none;
 }
@@ -21,31 +26,34 @@
 }
 
 .body {
-    margin-top: 200px;
+    margin-top: 58px;
 }
 
 .widget {
     z-index: 1000;
     position: fixed;
-    bottom: 1rem;
+    bottom: 6.3rem;
     right: 0;
-    background: bisque;
+    background: rgba(0,0,0,0.3);
     width: 90px;
     height: 50px;
+    opacity: 0.5;
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     left: 0;
-    background: blue;
+    bottom: 0;
+    background: azure;
     width: 100%;
-    box-shadow: 0 4px 9px rgba(192, 192, 192, 0.2);
-    height: 200px;
+    background-image: linear-gradient(to top, darkseagreen 30%, transparent);
+    height: 80px;
 }
 
-.toper {
-    height: 40px;
-    width: 100%;
-    background-color: #06396a;
-    min-width: 1000px;
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border-top: 0;
+    border-bottom: 0;
 }

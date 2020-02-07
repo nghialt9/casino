@@ -1,5 +1,4 @@
 .mb_header {
-    text-align: left;
     padding: 0 4%;
     height: 45px;
     line-height: 45px;
@@ -39,7 +38,6 @@
     display: inline-block;
     line-height: 1.3em;
     min-width: 52px;
-    box-sizing: border-box;
     text-align: center;
 }
 

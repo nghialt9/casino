@@ -9,8 +9,8 @@ class Header extends Component {
                 <div className="mb_header">
                     <h1 className="bg_header_name">Sóc Đĩa</h1>
                     <div className="header_R">
-                        <a href="/" className="btn_homeRegister">Đăng ký</a>
-                        <a href="/" className="btn_homeLogin">Đăng nhập</a>
+                        <a href="/" className="btn_homeRegister fa fa-registered"> Đăng ký</a>
+                        <a href="/" className="btn_homeLogin fa fa-sign-in"> Đăng nhập</a>
                     </div>
                 </div>
                 <div className="dt_header">
