@@ -20,6 +20,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="text_cp">Copyright © 2020 NghiaLT</div>
+                <a href="#top" id="myBtn" className="fa fa-4x fa-angle-up"> </a>
             </div >
         );
     }

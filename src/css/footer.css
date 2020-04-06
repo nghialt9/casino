@@ -16,3 +16,22 @@ i {
 .hidden {
     display: none;
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 2px;
+    z-index: 99;
+    font-size: 30px;
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    opacity: 0.5;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }

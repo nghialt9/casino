@@ -27,6 +27,7 @@ body {
 
 .body {
     margin-top: 58px;
+    margin-bottom: 80px;
 }
 
 .widget {
@@ -56,4 +57,108 @@ body {
     border-radius: 5px;
     border-top: 0;
     border-bottom: 0;
+}
+
+.video {
+    margin-top: 10px;
+}
+
+.time {
+    font-size: 74%;
+    background: wheat;
+    color: teal;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: 700;
+    text-shadow: 1px -3px 8px lightblue;
+}
+
+
+/* start tabbed */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: none;
+    border-top: 1px solid #abc;
+}
+
+.main-tab {
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+}
+
+.main-radio {
+    display: none;
+}
+
+.main-label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 1% 2%;
+    font-weight: 600;
+    text-align: center;
+    color: #abc;
+    border: 1px solid transparent;
+    font-size: 70%;
+}
+
+.main-label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.main-label[for*='1']:before {
+    content: '\f03d';
+}
+
+.main-label[for*='2']:before {
+    content: '\f128';
+}
+
+.main-label[for*='3']:before {
+    content: '\f129';
+}
+
+.main-label:hover {
+    color: #789;
+    cursor: pointer;
+}
+
+.main-radio:checked+label {
+    color: #0af;
+    border: 1px solid #abc;
+    border-top: 2px solid #0af;
+    border-bottom: 1px solid beige;
+}
+
+#tab1:checked~#content1, #tab2:checked~#content2, #tab3:checked~#content3 {
+    display: block;
+}
+
+/* end tabbed */
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .aligncenter {
+        clear: both;
+        display: block;
+        margin: 0 auto;
+    }
 }

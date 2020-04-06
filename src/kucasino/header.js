@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <header className="header">
                 <div className="mb_header">
-                    <h1 className="bg_header_name">Sóc Đĩa</h1>
+                    <h1 className="bg_header_name">Xóc Đĩa</h1>
                     <div className="header_R">
                         <a href="/" className="btn_homeRegister fa fa-registered"> Đăng ký</a>
                         <a href="/" className="btn_homeLogin fa fa-sign-in"> Đăng nhập</a>
